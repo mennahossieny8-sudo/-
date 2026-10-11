@@ -44,18 +44,19 @@ header{
 }
 header h1{
   color: silver;
-box-shadow:  0 0 30px 7px  #323232;
+box-shadow:  30px 30px 30px  #000;
 box-shadow: inset  0 0 30px 10px  #570000;
 background-color: #000;
-width:35%;
-margin-left: auto;
-margin-right: auto;
 text-align: center;
-  margin-top: 20px;
-  border-radius: 100px;
-  padding: 3px 15px;
-border-radius: 30px;
-border:4px solid #570000
+  padding: 3px 0;
+border-radius: 3px;
+border:4px solid #570000;
+position: fixed;
+  top:0;
+  right: 0;
+  left:0;
+  z-index: 100;
+  width: 100%;
 
 }
 
@@ -74,7 +75,7 @@ header h3{
 section{
   display: flex;
   flex-direction: column;
-  padding: 50px 20px;
+  padding: 50px 40px;
   background-color: #000;
   border-radius: 10px;
   border:2px solid #606060;
@@ -147,7 +148,7 @@ img
 }
 .r p{
   color: #fff;
-font-size: 15px;
+font-size: 17px;
   text-align: right;
 }
 
@@ -171,7 +172,7 @@ font-size: 15px;
 }
 .k p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 
@@ -198,13 +199,13 @@ font-size: 15px;
 }
 .d p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 
 i{
 color:#A00000;
-font-size: 15px;
+font-size: 17px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
@@ -231,7 +232,7 @@ margin-right: auto;
 }
 .a p{
   color: #fff;
-font-size: 15px;
+font-size: 17px;
   text-align: right;
 }
 
@@ -258,7 +259,7 @@ font-size: 15px;
 }
 .q p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 .e {
@@ -283,12 +284,12 @@ font-size: 15px;
 }
 .e p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 li{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   direction: rtl;
   margin-right: 25px;
 }
@@ -316,7 +317,7 @@ li{
 }
 .f p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 
@@ -343,20 +344,20 @@ li{
 }
 .w p{
   color: #fff;
-  font-size: 15px;
+  font-size: 17px;
   text-align: right;
 }
 .g h2{
-  color: #7B0000;
+  color: silver;
   text-align: center;
   margin: 50px 0;
 }
 footer h3{
-  color: lightgrey;
+  color: #A80000;
   background-color: #000;
   border-radius: 100px;
   text-align: center;
-box-shadow:  0 0 30px 5px  #B1B1B1;
+box-shadow:  0 0 30px 5px  #A80000;
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
