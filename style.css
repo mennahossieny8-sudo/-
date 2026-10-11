@@ -63,12 +63,12 @@ position: fixed;
 header h3{
   text-shadow:inset 1px 1px 3px #000;
   color: #760000;
-  margin-top: 40px;
+  margin-top: 90px;
   font-weight: 50px;
   font-size: 24px;
   margin-right:15px;
   text-align: center;
-  margin-bottom: 410px;
+  margin-bottom: 440px;
   position: relative;
   margin-left: 55%;
 }
@@ -353,7 +353,7 @@ li{
   margin: 50px 0;
 }
 footer h3{
-  color: #A80000;
+  color: #660000;
   background-color: #000;
   border-radius: 100px;
   text-align: center;
